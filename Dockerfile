@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM alpine
 RUN yum install httpd -y \
   zip \
   unzip
